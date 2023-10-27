@@ -18,9 +18,7 @@ source $HOME/.bash_profile
 --------------------------------------
 cd $HOME
 rm -rf celestia-a
-cd celestia-app
-git checkout v0.6.0
-make install
+cd celestia-ap
 
 -------------------------------------------------
 celestia-appd version
