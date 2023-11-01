@@ -15,7 +15,7 @@ source $HOME/.bash_profile
 -----------------------------------------------
 
 cd $home
-rm -rf celestia-a
+r
 cd celestia
 
 -------------------------------------------
