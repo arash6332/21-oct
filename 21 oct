@@ -17,7 +17,7 @@ source $HOME/.bash_profile
 git clone https://github.com/celestiaorg/networks
 
 -------------------------------
-cd $HOME
+cd $use
 rm -rf networks
 git clone https://github.com/celestiaorg/networks.git
 
