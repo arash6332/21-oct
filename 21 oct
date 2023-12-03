@@ -10,12 +10,12 @@ sudo rm -rf /usr/local/go
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
 rm "go$ver.linux-amd64.tar.gz"
 echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_go to room
-source $HOME/
+source
 
 
 
 
-cd $use
+cd $bnb
 git clone https://github.com/celestiaorg/networks.git
 
 ----------
@@ -26,7 +26,7 @@ CELESTIA_WALLET="MY_WALLET"
 
 CELESTIA_NODENAME="amir" 
 CELESTIA_WALLET="amir8372"
-CELESTIA_CHAIN="mamaki"
+
 
 ----------------------------------------------------------
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
