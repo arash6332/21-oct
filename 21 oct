@@ -25,10 +25,10 @@ CELESTIA_WALLET="MY_WALLET"
 Ø¨Ù‡ Ø¹Ù†ÙˆØ§Ù† Ù…Ø«Ø§Ù„ :
 
 CELESTIA_NODENAME="amir" 
-CELESTIA_WALLET="amir8372"
+CELESTIA_WALLET="arash372"
 
 
-----------------------------------------------------------
+-------------------------------
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
 echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash_profile
 echo 'export CELESTIA_WALLET='${CELESTIA_WALLET} >> $HOME/.bash_profile
