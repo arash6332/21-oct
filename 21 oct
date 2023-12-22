@@ -13,7 +13,6 @@ echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_go to roo
 source
 
 
-CELESTIA_NODENAME="MY_NODE" 
 Ø§Ø·Ù„Ø§Ø¹Ø§Øª  Ø¯Ø§Ø®Ù„ "" Ø±Ùˆ Ù¾Ø§Ú© Ú©Ù†ÛŒØ¯(ÙÙ‚Ø· Ø®Ø· Ø§ÙˆÙ„ Ùˆ Ø¯ÙˆÙ…) Ùˆ Ø§Ø·Ù„Ø§Ø¹Ø§Øª Ø®ÙˆØ¯ØªÙˆÙ† Ø±Ùˆ Ù‚Ø±Ø§Ø± Ø¨Ø¯ÛŒ
 
 
