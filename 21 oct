@@ -159,3 +159,9 @@ $request celestia1a35035fu83jkeeqz00d3jmt3k5wu5x3lyvn6qp
 
 celestia-appd q bank balances xxxmmm
 celestia-appd q bank balances xxxmmm
+
+-------------------------------
+echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
+echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash_profile
+echo 'export CELESTIA_WALLET='${CELESTIA_WALLET} >> $HOME/.bash_profile
+source $HOME/.bash_profile
