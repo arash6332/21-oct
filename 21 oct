@@ -1,6 +1,6 @@
 
 for github
-
+Swiss non-profit organization (“Octra Labs”), and you (“User” or “You”). By accessing
 ---------------------------------------
 sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/config.toml
 --------------------------------------------------
