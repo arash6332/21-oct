@@ -3,7 +3,12 @@ for github
 Swiss non-profit organization (“Octra Labs”), and you (“User” or “You”). By accessing
 ---------------------------------------
 sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/config.toml
-
+   "login": "PayneJoe",
+      "name": "PayneJoe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6851723?v=4",
+      "profile": "https://github.com/PayneJoe",
+      "contributions": [
+        "code"
 ---------------------------------
 sudo rm -rf /usr/local/go
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
