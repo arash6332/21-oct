@@ -1,6 +1,13 @@
 
 for github
 Swiss non-profit organization (“Octra Labs”), and you (“User” or “You”). By accessing
+
+---------------------------------
+sudo rm -rf /usr/local/go
+sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
+rm "go$ver.linux-amd64.tar.gz"
+echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_go to room
+source
 ---------------------------------------
 sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/config.toml
    "login": "PayneJoe",
@@ -9,12 +16,6 @@ sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/con
       "profile": "https://github.com/PayneJoe",
       "contributions": [
         "code"
----------------------------------
-sudo rm -rf /usr/local/go
-sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
-rm "go$ver.linux-amd64.tar.gz"
-echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_go to room
-source
 -----------------------------------------------------------------
 max_num_inbound_peers=40 
 max_num_outbound_peers=10 
