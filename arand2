@@ -148,5 +148,10 @@ echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash_profile
 echo 'export CELESTIA_WALLET='${CELESTIA_WALLET} >> $HOME/.bash_profile
 source $HOME/.bash_profile
 --------------------------------------------
-Ø¨Ø®Ø´ mamaki faucet  Ø¨Ø±ÛŒØ¯ Ùˆ Ø¨Ù‡ Ø´Ú©Ù„ Ø²ÛŒØ± Ø§Ø¯Ø±Ø³ Ø®ÙˆØ¯ØªÙˆÙ† Ø±Ùˆ ÙˆØ§Ø±Ø¯ Ú©Ù†ÛŒØ¯ Ùˆ Ø¯Ø±Ø®ÙˆØ§Ø³Øª ÙØ§Ø³Øª Ø´Ø¨Ú©Ù‡ Ø±Ùˆ Ø¨Ø¯ÛŒØ¯
+Ø¨Ø®Ø´ mamaki faucet  Ø¨Ø±ÛŒØ¯ Ùˆ Ø¨Ù‡ Ø´Ú©Ù„ Ø²ÛŒØ± Ø§Ø¯Ø±Ø³ Ø®ÙˆØ¯ØªÙˆÙ† Ø±Ùˆ Ù
+ˆØ§Ø±Ø¯ Ú©Ù†ÛŒØ¯ Ùˆ Ø¯Ø±Ø®ÙˆØ§Ø³Øª ÙØ§Ø³Øª Ø´Ø¨Ú©Ù‡ Ø±Ùˆ Ø¨Ø¯ÛŒØ¯
 $request celestia1a35035fu83jkeeqz00d3jmt3k5wu5x3lyvn6qp
+max_num_inbound_peers=40 
+max_num_outbound_peers=10 
+max_connections=50
+--------------------------------------------------
