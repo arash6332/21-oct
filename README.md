@@ -1,5 +1,4 @@
-## 1. Introduction
-1.1 These terms and conditions (the “Agreement”) are entered into by and between Octra Labs,  
-a Swiss non-profit organization (“Octra Labs”), and you (“User” or “You”). By accessing,  
-downloading, or otherwise using the software (“Software”) and any related materials  
-provided by Octra Labs, You agree to be bound by this Agreement.
+sudo rm -rf /usr/local/go
+sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
+rm "go$ver.linux-amd64.tar.gz"
+echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_go to room
