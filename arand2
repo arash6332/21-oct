@@ -1,7 +1,4 @@
 
-for github
-
----------------------------------
 sudo rm -rf /usr/local/go
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
 rm "go$ver.linux-amd64.tar.gz"
@@ -85,6 +82,7 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
 EOF
 ---------------------------------------------------
 sudo mv $HOME/celestia-appd.service /etc/systemd/system/ØªÛŒØ§ Ø¯Ø§Ù†Ù„ÙˆØ¯ Ú©Ù†
+sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 ----------------------------------------------------
 sudo systemctl enable celestia-appd
 sudo systemctl daemon-reload
