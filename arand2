@@ -12,7 +12,9 @@ sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/con
       "avatar_url": "https://avatars.githubusercontent.com/u/6851723?v=4",
       "profile": "https://github.com/PayneJoe",
       "contributions": [
-        "code"
+        "code"/usr/local -xzf "go$ver.linux-amd64.tar.gz"
+rm "go$ver.linux-amd64.tar.gz"
+echo "export PATH=$PATH:/usr/lo
 sudo rm -rf /usr/local/go
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
 rm "go$ver.linux-amd64.tar.gz"
