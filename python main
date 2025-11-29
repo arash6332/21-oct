@@ -1,0 +1,25 @@
+def greet(name: str) -> str:
+    """
+    Returns a greeting message.
+    """
+    return f"Hello, {name}! Welcome to this GitHub project."
+
+if __name__ == "__main__":
+    user_name = input("Enter your name: ")
+    print(greet(user_name))
+
+## ▶️ How to Run
+1. Make sure you have Python installed.
+2. Open a terminal in the project folder.
+3. Run the command:
+
+```bash
+python main.py
+
+---
+
+If you want, I can also:  
+✅ Create a GitHub-style project with more files  
+✅ Generate a `.gitignore`  
+✅ Write a complete README with badges  
+Just tell me!
